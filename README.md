@@ -8,4 +8,4 @@ This portfolio includes professional case studies, an independently developed AI
 
 **Note:** This repository is public, and contact information and portfolio PDF assets are publicly accessible. Verify all career claims and remove draft labels before recruiter distribution. The original AI explainer is currently embedded; a later Canva video may replace it.
 
-Source files are automatically verified against the previously published Netlify site when imported. The `.github/workflows/import-site.yml` workflow bootstraps the static website contents from the published deployment and validates file SHA-256 checksums before committing. Once imported, edit files in this repository and let Netlify deploy on GitHub commits.
+The current deployed portfolio files have been imported into this repository. Future updates should be committed here after Netlify is linked to this GitHub repository.
