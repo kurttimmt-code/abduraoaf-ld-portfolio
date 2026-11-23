@@ -1,0 +1,58 @@
+
+/* AI at Work: portfolio-facing instructional design exhibits */
+.design-hero{background:#10233b;color:#fff;padding:74px 0 84px;overflow:hidden;position:relative}
+.design-hero:after{content:"";position:absolute;width:480px;height:480px;right:-185px;top:-280px;border:1px solid #45607a;border-radius:50%;box-shadow:0 0 0 75px #10233b,0 0 0 76px #375069,0 0 0 150px #10233b,0 0 0 151px #375069;opacity:.65;pointer-events:none}
+.design-hero .container{position:relative;z-index:2}
+.design-hero h1{font-size:clamp(2.7rem,5.2vw,5.1rem);line-height:1.08;margin:18px 0;max-width:970px}
+.design-hero h1 span{color:#c6a66f}
+.design-hero p{font-size:1.11rem;color:#d5e0e8;max-width:760px}
+.design-actions{display:flex;gap:12px;flex-wrap:wrap;margin:27px 0 0}
+.design-facts{display:flex;gap:24px;flex-wrap:wrap;margin-top:37px;padding-top:20px;border-top:1px solid #3f556e;font-size:.88rem;color:#d1dce4}
+.design-facts b{color:#e3c48c}
+.design-steps{background:#e9eef0;border-bottom:1px solid #d4dde2}
+.design-steps .container{display:flex;overflow-x:auto;gap:8px;padding:15px 0}
+.design-steps a{padding:10px 15px;border-radius:9px;font-weight:750;font-size:.86rem;white-space:nowrap;color:#314d64}
+.design-steps a.active{background:#fff;border:1px solid #c3d0d8;color:#10233b;box-shadow:0 3px 13px #0f263912}
+.design-section{padding:68px 0}.design-section.light{background:#f7f7f4}.design-section.white{background:#fff}
+.design-section h2{font-size:clamp(1.7rem,3.4vw,2.7rem);letter-spacing:-.035em;line-height:1.2;margin:9px 0 16px}
+.design-section p{color:#536473}
+.design-intro{max-width:790px;margin-bottom:25px}
+.design-card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.design-card{border:1px solid #dce4e8;background:#fff;border-radius:17px;padding:26px;display:flex;flex-direction:column;gap:8px}
+.design-card h3{margin:5px 0 4px;font-size:1.22rem;line-height:1.3}.design-card p{margin:0 0 10px;font-size:.94rem;flex:1}.design-card .small-meta{font-size:.72rem;font-weight:850;letter-spacing:.12em;color:#977642;text-transform:uppercase}.design-card a:not(.btn){color:#205273;font-weight:850}
+.design-card.featured{border-color:#c6a66f;box-shadow:0 9px 28px #10233b10}
+.design-two-col{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.design-paper{padding:28px;background:#fff;border:1px solid #dde4e8;border-radius:16px}
+.design-paper h3{margin-top:0}.design-paper p{margin-bottom:0}.design-paper ul{color:#536473;padding-left:19px}
+.design-summary{border-left:4px solid #c6a66f;background:#f0ece3;padding:18px 24px;border-radius:0 9px 9px 0;color:#314c5e}
+.design-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin:22px 0 0}
+.design-strip .strip-item{background:#fff;border:1px solid #dce4e8;border-radius:12px;padding:15px;min-height:148px}
+.design-strip b{display:block;font-size:1.9rem;line-height:1.1;color:#ad8953}.design-strip strong{display:block;font-size:.91rem;line-height:1.25;margin:11px 0 5px}.design-strip span{color:#637888;font-size:.8rem}
+.design-table-scroll{overflow-x:auto;border:1px solid #dce5e9;border-radius:13px;background:#fff}
+.design-table{border-collapse:collapse;width:100%;min-width:980px;font-size:.84rem;line-height:1.48}
+.design-table th{background:#152c46;color:#fff;text-align:left;padding:19px 15px;font-size:.75rem;letter-spacing:.05em;vertical-align:top}
+.design-table td{padding:18px 15px;border-top:1px solid #e2e8ec;vertical-align:top;color:#536473}
+.design-table td strong{color:#19354d}.design-table tr:nth-child(2n) td{background:#f5f8f9}
+.design-table .ref{font-size:.75rem;color:#947647;font-weight:850;display:block;margin-bottom:5px}
+.design-note{font-size:.86rem!important;color:#637484;margin-top:19px}
+.design-criteria{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin-top:17px}
+.design-criteria>div{padding:20px;border:1px solid #dbe4e9;border-radius:12px;background:white}
+.design-criteria b{display:block;color:#ad8850;font-size:1.25rem}.design-criteria p{font-size:.84rem;margin:4px 0}
+.design-kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.design-kpi>div{border-radius:12px;padding:22px;background:#fff;border:1px solid #dce4e8}
+.design-kpi strong{display:block;font-size:1.35rem;color:#203a54}.design-kpi span{display:block;color:#6a7b87;font-size:.8rem;margin-top:8px}
+.design-levels{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px}
+.design-levels article{background:white;border:1px solid #dce4e8;border-radius:12px;padding:21px}
+.design-levels article .num{font-size:.75rem;color:#ab8651;font-weight:800}.design-levels h3{margin:8px 0}.design-levels p{font-size:.88rem;margin:0}
+.design-measure{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.design-measure .design-paper{height:100%}
+.design-footercta{background:#10233b;color:white;padding:62px 0}
+.design-footercta h2{font-size:clamp(1.7rem,3vw,2.8rem);margin:0 0 9px;letter-spacing:-.03em}
+.design-footercta p{color:#cdd9e3;max-width:750px}
+@media(max-width:940px){.design-card-grid{grid-template-columns:repeat(2,1fr)}.design-strip{grid-template-columns:repeat(3,1fr)}.design-levels,.design-kpi,.design-criteria{grid-template-columns:repeat(2,1fr)}.links{gap:16px}}
+@media(max-width:650px){.design-hero{padding:47px 0 54px}.design-hero h1{font-size:2.65rem}.design-card-grid,.design-two-col,.design-measure{grid-template-columns:1fr}.design-strip{grid-template-columns:repeat(2,1fr)}.design-levels,.design-kpi,.design-criteria{grid-template-columns:1fr 1fr}.design-card{padding:22px}.design-section{padding:51px 0}.design-facts{gap:10px 22px}}
+@media print{nav,.topnotice,.design-steps,.design-actions,.design-footercta,.footer{display:none!important}.design-hero{padding:15px 0;color:#10233b;background:white}.design-hero h1,.design-hero h1 span{color:#10233b}.design-hero p{color:#536473}.design-section{padding:14px 0}.design-card-grid,.design-levels,.design-measure{break-inside:avoid}}
+
+/* Visible only on keyboard focus */
+a.skip-link{position:absolute;z-index:100;left:-9999px;top:10px;padding:9px 15px;background:#fff;color:#10233b;border:2px solid #c6a66f;border-radius:7px}
+a.skip-link:focus{left:12px}

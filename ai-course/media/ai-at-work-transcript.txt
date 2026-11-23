@@ -1,0 +1,26 @@
+AI AT WORK — INTRODUCTORY EXPLAINER VIDEO
+Independent portfolio demonstration
+
+01. AI AT WORK
+Welcome to AI at Work. In the next minute, you will see how to use generative AI productively and responsibly in a professional environment.
+
+02. WHAT IS GENERATIVE AI?
+Generative AI can help draft text, suggest ideas, summarise material, or structure information. It predicts useful responses, but it does not guarantee factual accuracy.
+
+03. AI IS AN ASSISTANT
+A good use case is preparing a first draft of a meeting agenda, a training outline, or a message using information you are allowed to share.
+
+04. GOOD INPUTS MATTER
+Instead of saying write an email, explain the audience, purpose, tone, and required format. Clear instructions improve the usefulness of the draft.
+
+05. PAUSE BEFORE YOU PASTE
+Do not enter confidential client information, personal records, or restricted documents into unapproved AI tools. Follow your organisation’s data and technology policies.
+
+06. CHECK BEFORE YOU SHARE
+A polished answer may still contain errors, invented references, or unsuitable advice. Check meaningful claims against reliable sources and keep human approval in the workflow.
+
+07. THE HUMAN STAYS ACCOUNTABLE
+Use the model to support judgment, not replace it. Be especially careful with legal, financial, or other consequential decisions. Escalate uncertain cases.
+
+08. READY TO PRACTISE?
+Now continue the course. Decide when to use AI, practise a stronger prompt, and apply responsible review to a realistic workplace scenario.
