@@ -16,29 +16,37 @@ jobs:
         run: |
           python3 - <<'PY'
           import hashlib, pathlib, urllib.request, urllib.parse
-          manifest = """ai-alignment-matrix.html 499b9723f9eafa68430a3a45114844e0759726c52e6fd0d05f97d49cefa1714f
-          ai-course/lesson-3.html 949caf4ee950525918612a7063c2ab23845717e4793e77b433ab2b8012838a7a
-          ai-course/lesson-4.html 86d3036f08561313f9e2e23d33cfaedfafe716b41b7eb3d479679b948dcfb2b2
-          ai-course/lesson-5.html 09b0da25d9c117524eba72fbb43e50564022c5991384798ce4ae8293fa2ed5aa
-          ai-course/media/ai-at-work-captions.vtt ebdd79f5ec2ce288da8b3f459ce3909d10e55f0c3fdba3d2770f50b6cf955432
-          ai-course/media/ai-at-work-explainer.mp4 a21bcecd74f6c16e8e25da3cf739382c07808525b1dc712447845e37936f4748
-          ai-course/media/ai-at-work-poster.jpg 1c380bc80a67d84408cd44b8b5fbbfa1045a9b33c04382f7d1604501f387329d
-          ai-course/media/ai-at-work-transcript.txt 9188a5924e8a2605489256713acaf8680b31bf73d1f58d6546fd45a1fc230ecd
-          ai-course/resources.html 1c3e4754d0591221030d88764007a09eb2904a84431eecad1c5b728afdafa844
-          ai-design.css 91b0580799ec18e4f484f2f65ccf99e47d723fd58b8d0ddb720a9a2d5de942c4
-          ai-evaluation.html fa5ec2ea88071d07950973edc046d13786d8aa9ece64f09cc5a9cf1e1625674e
-          ai-learning-framework.html c18db9452cb6b9273f354e6f31d4e0a62719a8bb895fd2af2169a4559fa1028b
-          ai-strategy.html c7e972eea616e80ae3abb94b1495dd0be525fecc3f2d75b0c9563f5c000fa9af
-          assets/AI_at_Work_Learning_Alignment_Matrix.pdf 31a15eeaeaf04607dd6d9657f4ac960759e57dcf1e328adde54a500a067a5e68
-          construct.html 5f3d93bf193d1e83da5f371f309f54860d0e4e7a0ea3e929c34e2fc91eee9f96
-          contact.html c3a240fd633c1d58e2f56ac64bd26597bde266602ca02e95e6ac3666880e9ef6
-          index.html 3a46567ef3b9946cd5e29c55039c4158c6d7400e35b855a69af3c1193f37ed13
-          learning-sample.html 725008e06a538ac26b9c7b6418713a7517ff84e4c7e04034ffc28953a3afb9c6
-          navigation.js 282b906cfa714a69916d7c0bb8d8279f5f79dd24dafe3f50c7718d2c07e4df40
-          old-mutual.html 41cbc5bbeff168bc366caffc785e80e22caf98362fcd4fc2e66fd6c45c70b5ab
-          projects.html c2a9f177ea11ef299fd46d7ba8d283e2356010daea5c8b3942cbddc0af55f76d
-          styles.css d27ab682a4ba780ff2e18edf51503e20f0bc2eb9ca4fb421fa0331a869ef9cb4
-          tfg.html adb780e81ce44eb1def2ddf54d0224d91838daabd2977a782b3b6f8d57c6cb90"""
+          manifest = """Abduraoaf_Sandan_LD_Portfolio_Draft.pdf 8b82c21c34b0fea6c58cb85db458c4b02265fc63b39e8101726579aec07ec3f7
+about.html 771fa7000cddd9ce272a046cd3fac006f2c7e1b84941952961de8e282f8c5357
+ai-alignment-matrix.html 499b9723f9eafa68430a3a45114844e0759726c52e6fd0d05f97d49cefa1714f
+ai-course/assessment.html 583b401219ee98d249647e97b44e146492b4e75e147d6471cf91488e29ea023c
+ai-course/course.css 6e162d4eefbddcba8fb2e1dde1f2ef428fcd15551d1a036d7436d475d644d874
+ai-course/course.js 884f14abec9333e19904d4c6e4a09aa973ff864bb8d1cd59ee611336e267e465
+ai-course/index.html cc84b2057370353f45b511acc51dae6a97081e4d189a8ee7e2c7b94457cfb2be
+ai-course/lesson-1.html 8babac8fda3e571c1a9a48f288282e3e00656e2a8fb088de06772b9eec95d923
+ai-course/lesson-2.html 75827e0aed8b013a475027ad5236001d0b3ba507dca915a6360b0619456ca27d
+ai-course/lesson-3.html 949caf4ee950525918612a7063c2ab23845717e4793e77b433ab2b8012838a7a
+ai-course/lesson-4.html 86d3036f08561313f9e2e23d33cfaedfafe716b41b7eb3d479679b948dcfb2b2
+ai-course/lesson-5.html 09b0da25d9c117524eba72fbb43e50564022c5991384798ce4ae8293fa2ed5aa
+ai-course/media/ai-at-work-captions.vtt ebdd79f5ec2ce288da8b3f459ce3909d10e55f0c3fdba3d2770f50b6cf955432
+ai-course/media/ai-at-work-explainer.mp4 a21bcecd74f6c16e8e25da3cf739382c07808525b1dc712447845e37936f4748
+ai-course/media/ai-at-work-poster.jpg 1c380bc80a67d84408cd44b8b5fbbfa1045a9b33c04382f7d1604501f387329d
+ai-course/media/ai-at-work-transcript.txt 9188a5924e8a2605489256713acaf8680b31bf73d1f58d6546fd45a1fc230ecd
+ai-course/resources.html 1c3e4754d0591221030d88764007a09eb2904a84431eecad1c5b728afdafa844
+ai-design.css 91b0580799ec18e4f484f2f65ccf99e47d723fd58b8d0ddb720a9a2d5de942c4
+ai-evaluation.html fa5ec2ea88071d07950973edc046d13786d8aa9ece64f09cc5a9cf1e1625674e
+ai-learning-framework.html c18db9452cb6b9273f354e6f31d4e0a62719a8bb895fd2af2169a4559fa1028b
+ai-strategy.html c7e972eea616e80ae3abb94b1495dd0be525fecc3f2d75b0c9563f5c000fa9af
+assets/AI_at_Work_Learning_Alignment_Matrix.pdf 31a15eeaeaf04607dd6d9657f4ac960759e57dcf1e328adde54a500a067a5e68
+construct.html 5f3d93bf193d1e83da5f371f309f54860d0e4e7a0ea3e929c34e2fc91eee9f96
+contact.html c3a240fd633c1d58e2f56ac64bd26597bde266602ca02e95e6ac3666880e9ef6
+index.html 3a46567ef3b9946cd5e29c55039c4158c6d7400e35b855a69af3c1193f37ed13
+learning-sample.html 725008e06a538ac26b9c7b6418713a7517ff84e4c7e04034ffc28953a3afb9c6
+navigation.js 282b906cfa714a69916d7c0bb8d8279f5f79dd24dafe3f50c7718d2c07e4df40
+old-mutual.html 41cbc5bbeff168bc366caffc785e80e22caf98362fcd4fc2e66fd6c45c70b5ab
+projects.html c2a9f177ea11ef299fd46d7ba8d283e2356010daea5c8b3942cbddc0af55f76d
+styles.css d27ab682a4ba780ff2e18edf51503e20f0bc2eb9ca4fb421fa0331a869ef9cb4
+tfg.html adb780e81ce44eb1def2ddf54d0224d91838daabd2977a782b3b6f8d57c6cb90"""
           files = [line.split() for line in manifest.splitlines() if line.strip()]
           base = "https://abduraoafsandan.netlify.app/"
           for path, expected in files:
