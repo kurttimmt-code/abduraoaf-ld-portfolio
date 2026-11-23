@@ -1,0 +1,15 @@
+# Local and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.tmp
+*.bak
+# Do not commit local environment variables, credentials or tokens
+.env
+.env.*
+!.env.example
+# Local caches
+node_modules/
+.cache/
