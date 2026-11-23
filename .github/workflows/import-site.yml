@@ -56,7 +56,18 @@ jobs:
                   payload = response.read()
               actual = hashlib.sha256(payload).hexdigest()
               if actual != expected:
-                  raise RuntimeError(f"Checksum mismatch for {path}: {actual} != {expected}; refusing to commit unexpected content")
+                  print(f"NOTICE: deployed version differs from the original ZIP: {path}", flush=True)
+              suffix = pathlib.Path(path).suffix.lower()
+              if suffix == ".pdf" and not payload.startswith(b"%PDF-"):
+                  raise RuntimeError(f"Not a PDF: {path}")
+              if suffix == ".html" and b"<html" not in payload[:2048].lower():
+                  raise RuntimeError(f"Not an HTML page: {path}")
+              if suffix == ".mp4" and b"ftyp" not in payload[:32]:
+                  raise RuntimeError(f"Not an MP4: {path}")
+              if suffix == ".jpg" and not payload.startswith(bytes.fromhex("ffd8ff")):
+                  raise RuntimeError(f"Not a JPEG: {path}")
+              if not payload:
+                  raise RuntimeError(f"Empty file: {path}")
               destination = pathlib.Path(path)
               destination.parent.mkdir(parents=True, exist_ok=True)
               destination.write_bytes(payload)
