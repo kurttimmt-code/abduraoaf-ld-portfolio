@@ -225,6 +225,9 @@ nav .links a[aria-current="page"]{color:var(--gold);border-bottom:2px solid var(
 .cs-example p{color:#38556a;line-height:1.7;margin:0}
 .cs-example .cs-ex-row{padding:13px 0;border-top:1px solid #cbdade}
 .cs-example .cs-ex-row strong{display:block;color:#173650;margin-bottom:3px}
+.cs-panel .cs-ex-row{padding:12px 0;border-top:1px solid #dde5e8}
+.cs-panel .cs-ex-row strong{display:block;color:#173650;margin-bottom:4px}
+.cs-panel .cs-ex-row p{margin:0;color:#536473}
 .cs-metric{border-radius:14px;background:#fff;border:1px solid #d4dee3;padding:21px}
 .cs-metric strong{display:block;color:#14364f;font-size:1rem;margin-bottom:8px}
 .cs-metric p{color:#536473;font-size:.91rem;line-height:1.65;margin:0}
