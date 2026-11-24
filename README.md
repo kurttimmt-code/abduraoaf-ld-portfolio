@@ -2,13 +2,13 @@
 
 Static HTML/CSS/JavaScript source for https://abduraoafsandan.netlify.app.
 
-This portfolio includes professional case studies, an independently developed AI at Work course, video, instructional design framework, alignment matrix and evaluation strategy. The AI demonstration is not commissioned client work.
+This portfolio includes professional case studies, the independently developed AI at Work interactive course, instructional design framework, learning alignment matrix and evaluation strategy.
 
 **Deploy on Netlify:** Existing site → Project configuration → Continuous deployment → Link repository → `kurttimmt-code/abduraoaf-ld-portfolio` → branch `main`, publish directory `.`; no build command.
 
-**Note:** This repository is public, and contact information and portfolio PDF assets are publicly accessible. Verify all career claims and remove draft labels before recruiter distribution. The original AI explainer is currently embedded; a later Canva video may replace it.
+**Visibility:** This repository and its portfolio content are public. The AI at Work course currently includes the original explainer video.
 
-The current deployed portfolio files have been imported into this repository. Future updates should be committed here after Netlify is linked to this GitHub repository.
+The latest portfolio files are maintained in this repository. Netlify and GitHub Pages publish from the repository's `main` branch.
 
 
 ## GitHub Pages preview (separate from Netlify)
