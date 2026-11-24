@@ -190,8 +190,9 @@ const form=document.getElementById('final-assessment');
 if(form){
  const place=document.getElementById('assessment-questions'),result=document.getElementById('assessment-result'),validate=document.getElementById('assessment-validate');
  exam.forEach((item,index)=>{
-   const fieldset=document.createElement('fieldset');fieldset.className='exam-question';
-   const legend=document.createElement('legend');legend.textContent=`${String(index+1).padStart(2,'0')}. ${item.q}`;fieldset.appendChild(legend);
+   const fieldset=document.createElement('div');fieldset.className='exam-question';fieldset.setAttribute('role','group');
+   const title=document.createElement('h3');title.className='exam-question-title';title.id='exam-question-'+index;
+   title.textContent=`${String(index+1).padStart(2,'0')}. ${item.q}`;fieldset.setAttribute('aria-labelledby',title.id);fieldset.appendChild(title);
    item.a.forEach((answer,i)=>{
      const label=document.createElement('label');label.className='exam-answer';
      const input=document.createElement('input');input.type='radio';input.name='q'+index;input.value=String(i);
