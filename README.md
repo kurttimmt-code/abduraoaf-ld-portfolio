@@ -6,7 +6,7 @@ This portfolio includes professional case studies, the independently developed A
 
 **Deploy on Netlify:** Existing site → Project configuration → Continuous deployment → Link repository → `kurttimmt-code/abduraoaf-ld-portfolio` → branch `main`, publish directory `.`; no build command.
 
-**Visibility:** This repository and its portfolio content are public. The AI at Work course currently includes the original explainer video.
+**Visibility:** This repository and its portfolio content are public. The AI at Work course uses the updated Introduction_to_AI.mp4 video.
 
 The latest portfolio files are maintained in this repository. Netlify and GitHub Pages publish from the repository's `main` branch.
 
