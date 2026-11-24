@@ -1,4 +1,4 @@
-# Abduraoaf Sandan — Learning & Development Portfolio
+# Abduraoaf Sandan: Learning & Development Portfolio
 
 Static HTML/CSS/JavaScript source for https://abduraoafsandan.netlify.app.
 
@@ -19,7 +19,7 @@ A preview-only GitHub Actions workflow has been configured in
 **One-time setup by the repository owner:** Open
 [Settings → Pages](https://github.com/kurttimmt-code/abduraoaf-ld-portfolio/settings/pages)
 and change **Build and deployment → Source** to **GitHub Actions**.
-Then run the **GitHub Pages — Portfolio preview** workflow from Actions
+Then run the **GitHub Pages portfolio preview** workflow from Actions
 (or rerun its latest attempt).
 
 Preview URL (after the first successful deployment):
