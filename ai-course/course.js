@@ -1,4 +1,4 @@
-/* AI at Work — independent instructional-design demonstration.
+/* AI at Work: independent instructional-design demonstration.
    No analytics, no network requests, no learner data sent to a server. */
 (() => {
 'use strict';
@@ -215,7 +215,7 @@ if(form){
    const score=selected.reduce((n,x,i)=>n+(Number(x.value)===exam[i].r?1:0),0);
    const pct=score*10,pass=score>=8;
    store.attempts++;store.best=Math.max(store.best,pct);if(pass)store.passed=true;save();renderProgress();
-   const title=document.createElement('h2');title.textContent=pass?'You passed — great work.':'Review and try again.';
+   const title=document.createElement('h2');title.textContent=pass?'You passed. Great work.':'Review and try again.';
    const summary=document.createElement('p');summary.textContent=`Score: ${score}/10 (${pct}%). Pass mark: 80%. ${pass?'You demonstrated the essential decision-making skills.':'Review the explanations below before another attempt.'}`;
    const status=document.createElement('div');status.className='result-status '+(pass?'passed':'not-passed');
    status.append(title,summary);
