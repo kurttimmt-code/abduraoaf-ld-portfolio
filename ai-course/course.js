@@ -229,7 +229,7 @@ if(form){
       const explain=document.createElement('p');explain.textContent=item.e;
       entry.append(h,p1,p2,explain);list.appendChild(entry);
    });
-   const note=document.createElement('p');note.className='text-hint';note.textContent=pass?'Completion is recorded locally on this device. This is a portfolio demonstration course, not an accredited certificate.':'You may retake the quiz as many times as you like.';
+   const note=document.createElement('p');note.className='text-hint';note.textContent=pass?'Your assessment progress is saved on this device. You can review your answers or retake the assessment at any time.':'You may retake the quiz as many times as you like.';
    const again=document.createElement('button');again.className='btn dark';again.type='button';again.textContent='Retake the assessment →';
    again.addEventListener('click',()=>{form.reset();refreshAnswered();result.hidden=true;form.hidden=false;window.scrollTo({top:form.getBoundingClientRect().top+window.scrollY-85,behavior:'smooth'});});
    result.replaceChildren(status,list,note,again);result.hidden=false;form.hidden=true;
