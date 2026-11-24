@@ -47,6 +47,8 @@ nav .links a[aria-current="page"]{color:var(--gold);border-bottom:2px solid var(
 .case-bottom .inner{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
 .case-bottom a{font-size:.92rem;font-weight:800;color:#2a5874}
 .case-bottom a:hover{text-decoration:underline;text-underline-offset:4px}
+.case-study .case-bottom{padding:24px 0 30px}
+.case-study .case-bottom .inner{justify-content:flex-start}
 .case-topline{font-size:.82rem;color:#637888;margin:8px 0 0}
 .section.slim{padding-top:70px;padding-bottom:70px}
 .page-footnote{font-size:.84rem;color:#526777;max-width:850px;padding-top:18px}
