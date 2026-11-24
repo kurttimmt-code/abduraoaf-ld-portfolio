@@ -27,3 +27,6 @@ button,input,textarea{font:inherit}input:focus-visible,textarea:focus-visible{ou
 /* Keep text and media comfortably inset from the lesson panel edges. */
 @media(max-width:720px){.lesson-body{padding:26px 22px 34px;border-radius:15px}}
 @media(max-width:440px){.lesson-body{padding:22px 17px 28px}}
+
+/* Assessment title: more comfortable letter spacing than the default lesson hero. */
+.course-assessment .lesson-header h1{letter-spacing:.005em;line-height:1.14}
